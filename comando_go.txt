@@ -1,0 +1,12 @@
+#adicionar dependencia externa
+go get github.com/badoux/checkmail
+
+#rodar software go
+go run main.go
+
+#remover dependencias nao usadas no projeto go
+go mod tidy
+
+#compilar projeto go - executar na raiz do projeto
+go build
+
